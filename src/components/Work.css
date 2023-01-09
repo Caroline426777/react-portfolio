@@ -1,0 +1,10 @@
+.work{
+    display: flex;
+    justify-content: center;
+}
+
+.work__head{
+    color: #D0A486;
+    font-size: 34pt;
+    padding-top: 2%;
+}
