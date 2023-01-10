@@ -1,7 +1,17 @@
+.work{
+    padding-bottom: 6rem;
+}
 .work__head{
     display: flex;
     justify-content: center;
     color: #D0A486;
     font-size: 34pt;
     padding-top: 2%;
+}
+
+.work__cards{
+    margin-inline: auto;
+    width: min(70%, 70.5rem);
+    display: flex;
+    flex-wrap: wrap;
 }
