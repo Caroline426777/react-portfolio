@@ -1,13 +1,17 @@
-import NavBar from "./components/NavBar";
-import HomeIntro from "./components/HomeIntro";
-import Work from "./components/Work";
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+import Daf from './pages/Daf';
+
+
 
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
-      <HomeIntro></HomeIntro>
-      <Work></Work>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="daf" element={<Daf />} />
+      </Routes>
     </div>
   );
 }

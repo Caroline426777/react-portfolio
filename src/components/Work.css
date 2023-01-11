@@ -12,6 +12,11 @@
 .work__cards{
     margin-inline: auto;
     width: min(70%, 70.5rem);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.work__cards a {
+    grid-column: span 1 / span 1;
 }
