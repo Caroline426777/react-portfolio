@@ -1,0 +1,19 @@
+.assignment-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: min(50%, 70.5rem);
+    padding-block: 7em;
+}
+
+.assignment-text h1{
+    color: var(--clr-primary-300);
+    font-size: 20pt;
+}
+
+.assignment-text p{
+    font-size: 9pt;
+}
+

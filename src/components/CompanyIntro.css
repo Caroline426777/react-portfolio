@@ -1,0 +1,18 @@
+.company-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: min(50%, 70.5rem);
+    padding-block: 7em;
+}
+
+.company-intro__img{
+    width: 23%;
+    padding-bottom: 3%;
+}
+
+.company-intro p{
+    font-size: 8pt;
+}

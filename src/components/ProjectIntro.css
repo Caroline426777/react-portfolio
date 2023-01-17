@@ -1,0 +1,22 @@
+.project-intro__content{
+    display: flex;
+    margin-inline: auto;
+    width: min(80%, 70.5rem);
+    padding-top: 6em;
+    padding-bottom: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-intro__text{
+    color: white;
+}
+
+.project-intro__text h1{
+    font-size: 32pt;
+    margin-bottom: 0;
+}
+
+.project-intro__img{
+    width: 65%;
+}

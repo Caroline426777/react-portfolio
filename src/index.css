@@ -14,6 +14,16 @@
   font-weight: bold;
 }
 
+:root{
+  --clr-neutral-100: #E9CDCD;
+  --clr-neutral-200: #E9CFBF;
+  --clr-neutral-300: #D0A486;
+
+  --clr-primary-100: #E5675A;
+  --clr-primary-200: #D392F4;
+  --clr-primary-300: #9DB6F4;
+}
+
 * {
   box-sizing: border-box;
 }
